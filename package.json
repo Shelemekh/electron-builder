@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://eshelemekh@bitbucket.org/eshelemekh/electron-test.git"
+    "url": "https://github.com/Shelemekh/electron-builder.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/eshelemekh/electron-test#readme",
+  "homepage": "https://github.com/Shelemekh/electron-builder#readme",
   "devDependencies": {
     "electron": "^9.2.0",
     "electron-builder": "^22.9.1"
