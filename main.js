@@ -18,13 +18,14 @@ function createWindow () {
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
-  autoUpdater.setFeedURL({
-    provider: 'github',
-    owner: 'Shelemekh',
-    repo: 'electron-builder',
-    token: '0b5a7231f22b519bcbd129339e9391cb3cec3044'
-  });
+
   mainWindow.once('ready-to-show', () => {
+    autoUpdater.setFeedURL({
+      provider: 'github',
+      owner: 'Shelemekh',
+      repo: 'electron-builder',
+      token: '0b5a7231f22b519bcbd129339e9391cb3cec3044'
+    });
     autoUpdater.checkForUpdatesAndNotify();
   });
 }
