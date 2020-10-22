@@ -13,14 +13,20 @@
     "type": "git",
     "url": "https://github.com/Shelemekh/electron-builder.git"
   },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://github.com/Shelemekh/electron-builder#readme",
+
   "devDependencies": {
     "electron": "^9.2.0",
     "electron-builder": "^22.9.1"
   },
   "dependencies": {
     "electron-updater": "^4.3.5"
-  }
+  },
+  "build": {
+    "publish": [{
+        "provider": "github",
+        "owner": "Shelemekh",
+        "repo": "electron-builder",
+        "token":"0b5a7231f22b519bcbd129339e9391cb3cec3044"
+    }]
+}
 }
