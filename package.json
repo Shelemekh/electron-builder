@@ -1,13 +1,15 @@
 {
   "name": "electron-auto-update-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "electron update test",
   "main": "main.js",
-  "scripts": {
+  "author":"Shelemekh",
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
     "build": "electron-builder build --win --publish never",
-    "deploy": "electron-builder build --win --publish always"
+    "deploy": "electron-builder build --win --publish always",
+    "release": "build"
   },
   "repository": {
     "type": "git",
@@ -23,11 +25,18 @@
   },
   "build": {
     "appId": "com.example.ElectronAutoUpdate",
-    "publish":{
-      "provider": "github",
-      "owner": "Shelemekh",
-      "repo": "electron-builder",
-      "token": "0b5a7231f22b519bcbd129339e9391cb3cec3044"
-    } 
+    "extends": null,
+    "win": {
+      "icon": "build/icon.ico",
+      "publish":{
+        "provider": "github",
+        "owner": "Shelemekh",
+        "repo": "electron-builder",
+        "token":"0b5a7231f22b519bcbd129339e9391cb3cec3044"
+      } 
+    }
+    
   }
 }
+  
+  
