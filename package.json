@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "electron update test",
   "main": "main.js",
   "author":"Shelemekh",
@@ -33,7 +33,7 @@
       "provider": "github",
       "owner": "Shelemekh",
       "repo": "electron-builder",
-      "token":"3e504b7064d8690a0246a63357581ca29d54a66f"
+      "token":"ace67d7bc1eb88918eb86fdd25dedff42a9a420e"
     } 
     
   }
