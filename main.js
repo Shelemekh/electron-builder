@@ -16,6 +16,8 @@ function createWindow () {
     mainWindow = null;
   });
   mainWindow.once('ready-to-show', () => {
+    autoUpdater.logger = require("electron-log")
+    autoUpdater.logger.transports.file.level = "info"
     autoUpdater.checkForUpdatesAndNotify();
   });
 }
