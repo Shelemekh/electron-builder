@@ -24,7 +24,7 @@ function createWindow () {
     //   provider: 'github',
     //   owner: 'Shelemekh',
     //   repo: 'electron-builder',
-    //   token: '0b5a7231f22b519bcbd129339e9391cb3cec3044'
+    //   token: 'b5760c5ee24eea1d03ac126bf431fc8b72078672'
     // });
     autoUpdater.checkForUpdatesAndNotify();
   });

@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "electron update test",
   "main": "main.js",
   "author":"Shelemekh",
@@ -27,14 +27,14 @@
     "appId": "com.example.ElectronAutoUpdate",
     "extends": null,
     "win": {
-      "icon": "build/icon.ico",
-      "publish":{
-        "provider": "github",
-        "owner": "Shelemekh",
-        "repo": "electron-builder",
-        "token":"0b5a7231f22b519bcbd129339e9391cb3cec3044"
-      } 
-    }
+      "icon": "build/icon.ico"     
+    },
+    "publish":{
+      "provider": "github",
+      "owner": "Shelemekh",
+      "repo": "electron-builder",
+      "token":"b5760c5ee24eea1d03ac126bf431fc8b72078672"
+    } 
     
   }
 }
