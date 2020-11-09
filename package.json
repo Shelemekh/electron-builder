@@ -20,6 +20,7 @@
     "electron-builder": "^22.9.1"
   },
   "dependencies": {
+    "electron-log": "^4.3.0",
     "electron-updater": "^4.3.5"
   },
   "build": {
@@ -31,8 +32,7 @@
     "publish": {
       "provider": "github",
       "owner": "Shelemekh",
-      "repo": "electron-updated-new-gitHub",
-      "token": "ace67d7bc1eb88918eb86fdd25dedff42a9a420e"
+      "repo": "electron-updated-new-gitHub"
     }
   }
 }
