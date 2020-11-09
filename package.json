@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Shelemekh/electron-updated-new-gitHub"
+    "url": "https://github.com/Shelemekh/electron-builder"
   },
   "devDependencies": {
     "electron": "^9.2.0",
@@ -32,7 +32,7 @@
     "publish": {
       "provider": "github",
       "owner": "Shelemekh",
-      "repo": "electron-updated-new-gitHub"
+      "repo": "electron-builder"
     }
   }
 }
